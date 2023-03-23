@@ -1,5 +1,6 @@
-:root {
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 a {
   color: #646cff;
