@@ -1,12 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* fonts */
+*{
+  font-family: 'Fira Code',monospace;
+}
 
 /* reusable classes */
 .w-0\.1{
   width: 0.01rem;
 }
 
+.w-76{
+  width: 19.6rem;
+}
+
+/* absolute */
 .left-7\.5{
   left: 1.60rem;
+}
+
+/* borders */
+.border-1{
+  border: 1px solid #ABB2BF;
 }
