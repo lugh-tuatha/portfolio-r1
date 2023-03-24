@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import './navbar.css'
 
 import * as Hi from "react-icons/hi2";
 import * as Fa from "react-icons/fa";
