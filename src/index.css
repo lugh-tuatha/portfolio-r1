@@ -9,7 +9,9 @@
   font-family: 'Fira Code',monospace;
 }
 
-/* reusable classes */
+/*---------------- 
+reusable classes 
+----------------*/
 .w-0\.1{
   width: 0.01rem;
 }

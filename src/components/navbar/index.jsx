@@ -30,11 +30,11 @@ function Navbar() {
           <Hi.HiBars3BottomRight size={30} onClick={toggleMenu} />
         </button>
 
-        <ul className={`absolute top-16 left-4 w-11/12 ${isMenuOpen ? 'block' : 'hidden'}`}>
-          <li><a href='#home' onClick={toggleMenu} className='font-light text-gray text-2xl'><span className='text-primary font-bold'>#</span>home</a></li>
-          <li className='mt-2'><a href='#works' onClick={toggleMenu} className='font-light text-gray text-2xl'><span className='text-primary font-bold'>#</span>works</a></li>
-          <li className='mt-2'><a href='#about' onClick={toggleMenu} className='font-light text-gray text-2xl'><span className='text-primary font-bold'>#</span>about me</a></li>
-          <li className='mt-2'><a href='#contacts' onClick={toggleMenu} className='font-light text-gray text-2xl'><span className='text-primary font-bold'>#</span>contacts</a></li>
+        <ul className={`absolute top-16 left-0 w-full h-screen bg-background ${isMenuOpen ? 'block' : 'hidden'}`}>
+          <li className='ml-4'><a href='#home' onClick={toggleMenu} className='font-light text-gray text-2xl'><span className='text-primary font-bold'>#</span>home</a></li>
+          <li className='mt-2 ml-4'><a href='#works' onClick={toggleMenu} className='font-light text-gray text-2xl'><span className='text-primary font-bold'>#</span>works</a></li>
+          <li className='mt-2 ml-4'><a href='#about' onClick={toggleMenu} className='font-light text-gray text-2xl'><span className='text-primary font-bold'>#</span>about me</a></li>
+          <li className='mt-2 ml-4'><a href='#contacts' onClick={toggleMenu} className='font-light text-gray text-2xl'><span className='text-primary font-bold'>#</span>contacts</a></li>
         
         <div className='flex justify-center'>
           <Fa.FaGithubSquare size={36} className="mt-4 text-gray cursor-pointer"/>
