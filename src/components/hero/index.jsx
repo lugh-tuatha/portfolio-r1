@@ -8,7 +8,7 @@ import Quote from '../quote'
 function Hero() {
   return (
     <div className='sm:mt-20 mt-4'>
-      <div className='lg:flex gap-8 xl:gap-0 lg:w-11/12 xl:w-9/12 mx-auto'>
+      <div className='lg:flex gap-8 xl:gap-0 lg:w-11/12 xl:w-9/12 mx-auto mb-4 sm:mb-20'>
         
         <div className='md:w-10/12 lg:auto w-11/12 m-auto'>
           <h2 className='lg:text-4xl text-3xl font-semibold'>Ace is a <span className='text-primary'>front-end developer</span> with a passion for creating stunning and responsive websites.</h2>
@@ -18,7 +18,7 @@ function Hero() {
 
         <div className='mx-auto mt-8 w-11/12 '>
           <div className='flex justify-end w'>
-            <img src={HeroImg} className='md:w-8/12  w-full self-end'/>
+            <img src={HeroImg} className='md:w-8/12 w-full self-end'/>
           </div>
           <div className="flex justify-end">
             <div className='w-76 text-lg font-thin h-8 flex items-center border-1'> 
@@ -27,7 +27,6 @@ function Hero() {
             </div>
           </div>
         </div>
-
       </div>
       <Quote />
     </div>
