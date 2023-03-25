@@ -21,7 +21,7 @@ function Hero() {
             <img src={HeroImg} className='md:w-8/12 w-full self-end'/>
           </div>
           <div className="flex justify-end">
-            <div className='w-76 text-lg font-thin h-8 flex items-center border-1'> 
+            <div className='w-76 text-lg font-thin h-8 flex items-center border-1 border-gray'> 
               <div className='w-4 h-4 bg-primary mx-1'></div>
               <p className='text-gray text-sm '>Currently working on <span className='text-white'>Portfolio</span> </p>
             </div>

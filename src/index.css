@@ -31,5 +31,9 @@ reusable classes
 
 /* borders */
 .border-1{
-  border: 1px solid #ABB2BF;
+  border-width: 1px;
+}
+
+.border-b-1{
+  border-bottom-width: 1px;
 }
