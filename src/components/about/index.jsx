@@ -7,7 +7,7 @@ import AboutHero from '../../assets/svg/about-hero.svg'
 
 function About() {
   return (
-    <div className='mt-20 w-11/12 xl:w-9/12 mx-auto mb-80'>
+    <div className='mt-20 w-11/12 xl:w-9/12 mx-auto'>
       <SectionHeader>about-me</SectionHeader>
 
       <div className='lg:flex lg:justify-between '>
