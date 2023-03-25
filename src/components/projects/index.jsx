@@ -4,9 +4,9 @@ import SectionHeader from '../section-header'
 
 function Projects() {
   return (
-    <div className='mt-20 w-11/12 xl:w-9/12 mx-auto'>
+    <div className='mt-20 w-11/12 xl:w-9/12 mx-auto' id='works'>
       <div className='flex items-center justify-between'>
-        <SectionHeader>Projects</ SectionHeader>
+        <SectionHeader>projects</ SectionHeader>
 
         <p className=' justify-self-end'>View all</p>
       </div>

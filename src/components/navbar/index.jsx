@@ -36,11 +36,10 @@ function Navbar() {
           <li className='mt-2 ml-4'><a href='#about' onClick={toggleMenu} className='font-light text-gray text-2xl'><span className='text-primary font-bold'>#</span>about me</a></li>
           <li className='mt-2 ml-4'><a href='#contacts' onClick={toggleMenu} className='font-light text-gray text-2xl'><span className='text-primary font-bold'>#</span>contacts</a></li>
         
-        <div className='flex justify-center'>
-          <Fa.FaGithubSquare size={36} className="mt-4 text-gray cursor-pointer"/>
-          <Fa.FaLinkedin size={36} className="mt-4 text-gray cursor-pointer"/>
-        </div>
-
+          <div className='flex justify-center'>
+            <Fa.FaGithubSquare size={36} className="mt-4 text-gray cursor-pointer"/>
+            <Fa.FaLinkedin size={36} className="mt-4 text-gray cursor-pointer"/>
+          </div>
         </ul>
 
       </nav>
