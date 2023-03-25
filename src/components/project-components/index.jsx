@@ -4,7 +4,7 @@ import * as Ai from "react-icons/ai";
 
 function ProjectComponents() {
   return (
-    <div className='border-1 border-gray w-1/5 my-10'>
+    <div className='border-1 border-gray w-1/5 my-10 min-w-min'>
       <img src="https://th.bing.com/th/id/OIG.RjM3NEEyRUY2RUVDMDNG?pcl=1b1a19&pid=ImgGn" className='w-full h-40 border-b-1 border-gray'/>
 
       <div className='border-b-1 border-gray p-2 font-thin'>
