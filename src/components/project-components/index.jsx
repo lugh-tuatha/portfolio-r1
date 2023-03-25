@@ -8,13 +8,13 @@ function ProjectComponents() {
       <img src="https://th.bing.com/th/id/OIG.RjM3NEEyRUY2RUVDMDNG?pcl=1b1a19&pid=ImgGn" className='w-full h-40 border-b-1 border-gray'/>
 
       <div className='border-b-1 border-gray p-2 font-thin'>
-        HTML SCSS Javascript Node
+        React Vanilla CSS Vite
       </div>
 
       <div className='p-4'>
-        <h2 className='text-xl font-semibold mb-2'>ChertNodes</h2> 
+        <h2 className='text-xl font-semibold mb-2'>Nft.azriel</h2> 
 
-        <p className='font-thin mb-2'>Minecraft servers </p>
+        <p className='font-thin mb-2'>Nft marketplace</p>
 
         <div className="flex">
           <button className='border-1 border-primary py-1 px-4 mr-4 flex items-center gap-2 hover:bg-primary hover:bg-opacity-20'><span>Live</span><Ai.AiOutlineLink /> </button>
