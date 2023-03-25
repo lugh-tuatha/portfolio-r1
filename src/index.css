@@ -20,6 +20,10 @@ reusable classes
   width: 19.6rem;
 }
 
+.h-0\.2 {
+  height: 0.02rem;
+}
+
 /* absolute */
 .left-7\.5{
   left: 1.60rem;
