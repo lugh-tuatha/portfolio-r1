@@ -13,8 +13,7 @@ function About() {
       <div className='lg:flex lg:justify-between '>
         <div className='lg:w-1/2 text-lg text-gray mt-12 text-justify'>
           <p className='mb-8'>Hello, i'm Ace!</p>
-          <p className='mb-8'>I'm a self-taught front-end developer based in Kyiv, Ukraine. I can develop responsive websites from scratch and raise them into modern user-friendly web experiences. </p>
-          <p className='mb-8'>Transforming my creativity and knowledge into a websites has been my passion for over a year. I have been helping various clients to establish their presence online. I always strive to learn about the newest technologies and frameworks.</p>
+          <p className='mb-8'>My journey as a self-taught developer began in 9th grade with HTML and CSS, and although my learning wasn't consistent at first, my passion for coding was reignited in August 2022 and since then, I have continued to expand my skills in both front-end and back-end development, leading me to successfully complete the KodeGo Bootcamp and now looking forward to my next adventure as a developer.</p>
 
           <Button>Readmore</Button>
         </div>
