@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import * as Hi from "react-icons/hi2";
 import * as Fa from "react-icons/fa";
 
+
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
