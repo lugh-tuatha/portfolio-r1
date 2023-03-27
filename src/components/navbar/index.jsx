@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import * as Hi from "react-icons/hi2";
 import * as Fa from "react-icons/fa";
 
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -17,7 +18,7 @@ function Navbar() {
         <h1 className='self-center'>LOGO</h1>
 
         <ul className='flex gap-10'>
-          <li className='text-lg font-light text-gray'><a href='#home'><span className='text-primary font-bold'>#</span>home</a></li>
+          <li className='text-lg font-light text-gray'><Link to='/'><span className='text-primary font-bold'>#</span>home</Link></li>
           <li className='text-lg font-light text-gray'><a href='#works'><span className='text-primary font-bold'>#</span>works</a></li>
           <li className='text-lg font-light text-gray'><a href='#about'><span className='text-primary font-bold'>#</span>about me</a></li>
           <li className='text-lg font-light text-gray'><a href='#contacts'><span className='text-primary font-bold'>#</span>contacts</a></li>

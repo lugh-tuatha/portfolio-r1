@@ -18,7 +18,7 @@ function Education() {
             <h1 className=' '>Kodego Bootcamp</h1>
             <div className='w-20 bg-primary h-0.2 mt-1'></div>
             <p className='mt-4 text-gray'>FullStack web development bootcamp</p>
-            <p className='mt-3 text-justify'>I successfully completed a comprehensive and intensive bootcamp program where I gained a solid foundation in both front-end and back-end development, as well as valuable experience collaborating with other aspiring developers on challenging real-world projects.</p>
+            <p className='mt-3 text-justify font-thin'>I successfully completed a comprehensive and intensive bootcamp program where I gained a solid foundation in both front-end and back-end development, as well as valuable experience collaborating with other aspiring developers on challenging real-world projects.</p>
           </div>
         </div>
       </div>

@@ -7,7 +7,7 @@ import * as Gr from "react-icons/gr";
 
 function Contacts() {
   return (
-    <div className='mt-10 w-11/12 xl:w-9/12 mx-auto'>
+    <div className='mt-10 w-11/12 xl:w-9/12 mx-auto' id='contacts'>
       <SectionHeader>contacts</SectionHeader>
 
       <div className='mt-12 md:flex justify-between'>
