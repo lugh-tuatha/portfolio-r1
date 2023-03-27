@@ -24,3 +24,5 @@ const skills = [
     list: "VSCode Git",
   },
 ]
+
+export default skills;

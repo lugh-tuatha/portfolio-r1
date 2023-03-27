@@ -4,8 +4,8 @@ import * as Fa from "react-icons/fa";
 
 function Socials() {
   return (
-    <div className='hidden xl:block'>
-      <div className='w-0.1 h-40 bg-gray ml-11 absolute top-0'></div>
+    <div className='hidden xl:block fixed top-0'>
+      <div className='w-0.1 h-40 bg-gray ml-11'></div>
 
       <div className='absolute top-40 left-7.5 mt-1'>
         <Fa.FaGithubSquare size={36} className="text-gray cursor-pointer"/>

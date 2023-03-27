@@ -2,6 +2,8 @@ import React from 'react'
 
 import * as Ai from "react-icons/ai";
 
+import skills from '../../data/skills'
+
 function ProjectComponents() {
   return (
     <div className='border-1 border-gray w-1/5 my-10 min-w-min'>

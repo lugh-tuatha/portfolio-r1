@@ -20,7 +20,7 @@ function Navbar() {
         <ul className='flex gap-10'>
           <li className='text-lg font-light text-gray'><Link to='/'><span className='text-primary font-bold'>#</span>home</Link></li>
           <li className='text-lg font-light text-gray'><a href='#works'><span className='text-primary font-bold'>#</span>works</a></li>
-          <li className='text-lg font-light text-gray'><a href='#about'><span className='text-primary font-bold'>#</span>about me</a></li>
+          <li className='text-lg font-light text-gray'><a href='#about'><span className='text-primary font-bold'>#</span>about-me</a></li>
           <li className='text-lg font-light text-gray'><a href='#contacts'><span className='text-primary font-bold'>#</span>contacts</a></li>
         </ul>
       </nav>
@@ -35,7 +35,7 @@ function Navbar() {
         <ul className={`absolute top-16 left-0 w-full h-screen bg-background ${isMenuOpen ? 'block' : 'hidden'}`}>
           <li className='ml-4'><a href='#home' onClick={toggleMenu} className='font-light text-gray text-2xl'><span className='text-primary font-bold'>#</span>home</a></li>
           <li className='mt-2 ml-4'><a href='#works' onClick={toggleMenu} className='font-light text-gray text-2xl'><span className='text-primary font-bold'>#</span>works</a></li>
-          <li className='mt-2 ml-4'><a href='#about' onClick={toggleMenu} className='font-light text-gray text-2xl'><span className='text-primary font-bold'>#</span>about me</a></li>
+          <li className='mt-2 ml-4'><a href='#about' onClick={toggleMenu} className='font-light text-gray text-2xl'><span className='text-primary font-bold'>#</span>about-me</a></li>
           <li className='mt-2 ml-4'><a href='#contacts' onClick={toggleMenu} className='font-light text-gray text-2xl'><span className='text-primary font-bold'>#</span>contacts</a></li>
         
           <div className='flex justify-center'>
