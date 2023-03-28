@@ -1,27 +1,27 @@
 const skills = [
   {
     category: "Languages",
-    list: "Javascript Java",
+    list: "Javascript, Java",
   },
   {
     category: "Database",
-    list: "MySql Mongo",
+    list: "MySql, Mongo",
   },  
   {
     category: "Other",
-    list: "HTML CSS SCSS",
+    list: "HTML, CSS, SCSS",
   },
   {
     category: "Frameworks",
-    list: "React Tailwind Bootstrap Vite",
+    list: "React, Tailwind, Bootstrap, Vite",
   },
   {
     category: "Server side",
-    list: "Node Express",
+    list: "Node, Express",
   },
   {
     category: "Tools",
-    list: "VSCode Git",
+    list: "VSCode, Git",
   },
 ]
 
