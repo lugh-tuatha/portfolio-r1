@@ -7,7 +7,7 @@ function ProjectComponents({languages, title, desc, live, repo, cover}) {
     <div className='border-1 border-gray mt-12'>
       <img src={cover} className='w-full h-64 border-b-1 border-gray'/>
 
-      <div className='border-b-1 border-gray p-2 font-thin h-15 sm:h-24 md:h-20'>
+      <div className='border-b-1 border-gray p-2 font-thin h-16'>
         {languages}
       </div>
 

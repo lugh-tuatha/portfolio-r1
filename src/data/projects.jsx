@@ -1,3 +1,5 @@
+import AcessignmentThumb from '../assets/img/thumb/acessignment-thumb.png'
+
 const projects = [
   {
     languages: "HTML, CSS, JavaScript and Bootstrap",
@@ -5,7 +7,7 @@ const projects = [
     desc: "Webpage full or resources for programers.",
     live: "facebook.com",
     repo: "google.com",
-    cover: ""
+    cover: AcessignmentThumb,
   },
   {
     languages: "React, CSS, Bootstrap and Vite",
