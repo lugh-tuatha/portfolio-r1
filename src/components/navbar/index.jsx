@@ -5,6 +5,8 @@ import * as Fa from "react-icons/fa";
 
 import { Link } from "react-router-dom";
 
+import Logo from '../../assets/svg/logo.svg'
+
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -15,8 +17,11 @@ function Navbar() {
   return (
     <div className='container mx-auto'>
       <nav className='justify-between mt-6 hidden sm:flex'>
-        <h1 className='self-center'>LOGO</h1>
-
+        <div className='flex gap-2'>
+          <img src={Logo} alt="brand logo" className="self-center w-6" />
+          <h1 className='text-xl font-semibold'>Ace</h1>
+        </div>
+        
         <ul className='flex gap-10'>
           <li className='text-lg font-light text-gray'><Link to='/'><span className='text-primary font-bold'>#</span>home</Link></li>
           <li className='text-lg font-light text-gray'><a href='#works'><span className='text-primary font-bold'>#</span>works</a></li>
@@ -26,7 +31,10 @@ function Navbar() {
       </nav>
 
       <nav className='flex sm:hidden justify-between mx-4 mt-6'>
-        <h1 className='self-center'>LOGO</h1>
+        <div className='flex gap-2'>
+          <img src={Logo} alt="brand logo" className="self-center w-6" />
+          <h1 className='text-xl font-semibold'>Ace</h1>
+        </div>
 
         <button>
           <Hi.HiBars3BottomRight size={30} onClick={toggleMenu} />

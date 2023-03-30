@@ -10,6 +10,18 @@ import AboutHero from '../assets/svg/about-hero.svg'
 
 import skill from '../data/skills'
 
+const funFacts = [
+  {
+    facts: "I like winter more than summer",
+  },
+  {
+    facts: "I am a dad joke enjoyer.",
+  },
+  {
+    facts: "Cats are my favorite animal",
+  },
+]
+
 function About() {
   return (
     <>
@@ -38,7 +50,9 @@ function About() {
 
       <SectionHeader>my-fun-facts</SectionHeader>
       <div className="flex gap-3">
-        <p className='border-1 p-2 mt-8'>I like winter more than summer</p>
+        {funFacts.map(facts => (
+          <p className='border-1 p-2 mt-8'>{facts.facts}</p>
+        ))}
       </div>
     </div>
     <Footer />
