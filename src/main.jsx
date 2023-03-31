@@ -5,6 +5,8 @@ import './index.css'
 
 import Projects from './pages/Projects'
 import About from './pages/About'
+import Certification from './pages/Certification'
+
 
 import {
   createBrowserRouter,
@@ -23,6 +25,10 @@ const router = createBrowserRouter([
   {
     path: "/about",
     element: <About />,
+  },
+  {
+    path: "/certification",
+    element: <Certification />,
   },
 ]);
 

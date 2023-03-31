@@ -10,6 +10,7 @@ import About from './components/about'
 import Contacts from './components/contacts'
 import Footer from './components/footer'
 import Education from './components/education'
+import Certification from './components/certification'
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
       <Skills />
       <About />
       <Education />
+      <Certification />
       <Contacts />
       <Footer />
     </div>
