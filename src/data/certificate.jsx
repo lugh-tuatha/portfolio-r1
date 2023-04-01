@@ -18,7 +18,7 @@ const certificate = [
     certImg: uxDesignCert,
   },
   {
-    title: "Theoretical understanding of CSS",
+    title: "Theoretical understanding of CSS ㅤㅤ",
     issueDate: "Issued Dec 2022",
     credentialLink: "https://www.sololearn.com/certificates/CT-TXH3A6WK",
     certImg: sololearnCssCert,
