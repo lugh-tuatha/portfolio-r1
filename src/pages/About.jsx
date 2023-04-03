@@ -42,16 +42,16 @@ function About() {
       </div>
 
       <SectionHeader>skills</SectionHeader>
-      <div className='flex gap-4'>
+      <div className='flex gap-3 flex-wrap my-8 '>
         {skill.map(skills => (
           <SkillContainer category={skills.category} list={skills.list}/>
         ))}
       </div>
 
       <SectionHeader>my-fun-facts</SectionHeader>
-      <div className="flex gap-3">
+      <div className="flex gap-3 flex-wrap mt-8">
         {funFacts.map(facts => (
-          <p className='border-1 p-2 mt-8'>{facts.facts}</p>
+          <p className='border-1 p-2'>{facts.facts}</p>
         ))}
       </div>
     </div>

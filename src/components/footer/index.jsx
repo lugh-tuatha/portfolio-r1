@@ -17,9 +17,9 @@ function Footer() {
             <h1 className='text-xl'>Media</h1>
 
             <div className="flex gap-2 mt-2 sm:mt-4">
-              <Fa.FaGithubSquare size={36} className="text-gray cursor-pointer"/>
-              <Fa.FaLinkedin size={36} className="text-gray cursor-pointer"/>
-              <Fa.FaTwitterSquare size={36} className="text-gray cursor-pointer"/>
+              <a href="https://github.com/lugh-tuatha"><Fa.FaGithubSquare size={36} className="text-gray cursor-pointer"/></a>
+              <a href="https://www.linkedin.com/in/ace-gabriel-p-pasiliao-74594b250/"><Fa.FaLinkedin size={36} className="text-gray cursor-pointer"/></a>
+              <a href="https://twitter.com/_tuatha"><Fa.FaTwitterSquare size={36} className="text-gray cursor-pointer"/></a>
             </div>
           </div>
         </div>

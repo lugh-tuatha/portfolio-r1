@@ -43,7 +43,7 @@ function Navbar() {
         </button>
 
         <ul className={`absolute top-16 left-0 w-full h-screen bg-background ${isMenuOpen ? 'block' : 'hidden'}`}>
-          <li className='ml-4'><a href='#home' onClick={toggleMenu} className='font-light text-gray text-2xl'><span className='text-primary font-bold'>#</span>home</a></li>
+          <li className='ml-4'><Link to="/" onClick={toggleMenu} className='font-light text-gray text-2xl'><span className='text-primary font-bold'>#</span>home</Link></li>
           <li className='mt-2 ml-4'><a href='#works' onClick={toggleMenu} className='font-light text-gray text-2xl'><span className='text-primary font-bold'>#</span>works</a></li>
           <li className='mt-2 ml-4'><a href='#about' onClick={toggleMenu} className='font-light text-gray text-2xl'><span className='text-primary font-bold'>#</span>about-me</a></li>
           <li className='mt-2 ml-4'><a href='#contacts' onClick={toggleMenu} className='font-light text-gray text-2xl'><span className='text-primary font-bold'>#</span>contacts</a></li>

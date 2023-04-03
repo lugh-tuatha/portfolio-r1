@@ -5,15 +5,15 @@ const projects = [
     languages: "HTML, CSS, JavaScript and Bootstrap",
     title: "Acessignment",
     desc: "Webpage full or resources for programers.",
-    live: "facebook.com",
-    repo: "google.com",
+    live: "https://acessignment.vercel.app/",
+    repo: "https://github.com/lugh-tuatha/acessignment",
     cover: AcessignmentThumb,
   },
   {
     languages: "React, CSS, Bootstrap and Vite",
     title: "Nft.azriel",
     desc: "A virtual NFT marketplace",
-    live: "https://lugh-tuatha.github.io/nft.azriel/",
+    live: "https://nft-azriel.vercel.app/",
     repo: "https://github.com/lugh-tuatha/nft.azriel",
     cover: ""
   },
