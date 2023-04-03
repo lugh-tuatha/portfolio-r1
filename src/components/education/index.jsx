@@ -14,7 +14,7 @@ function Education() {
 
         <div className='sm:w-1/2'> 
           <div className='border-1 border-gray p-4 '>
-            <p className='text-end text-primary text-sm font-thin opacity-70'>Dec 5, 2021 - Present</p>
+            <p className='text-end text-primary text-sm font-thin opacity-70'>Dec 2022 - March 2023</p>
             <h1 className=' '>Kodego Bootcamp</h1>
             <div className='w-20 bg-primary h-0.2 mt-1'></div>
             <p className='mt-4 text-gray'>FullStack web development bootcamp</p>

@@ -20,7 +20,7 @@ function Projects() {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         {project.map(projects => (
-          <ProjectComponents languages={projects.languages} title={projects.title} desc={projects.desc} live={projects.live} repo={projects.repo}/>
+          <ProjectComponents languages={projects.languages} title={projects.title} desc={projects.desc} live={projects.live} repo={projects.repo} cover={projects.cover}/>
         ))}
       </div>
 

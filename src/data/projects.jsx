@@ -1,4 +1,5 @@
 import AcessignmentThumb from '../assets/img/thumb/acessignment-thumb.png'
+import NftAzrielThumb from '../assets/img/thumb/nft.azriel-thumb.png'
 
 const projects = [
   {
@@ -15,7 +16,7 @@ const projects = [
     desc: "A virtual NFT marketplace",
     live: "https://nft-azriel.vercel.app/",
     repo: "https://github.com/lugh-tuatha/nft.azriel",
-    cover: ""
+    cover: NftAzrielThumb,
   },
   {
     languages: "Mongo, Express, React, Node, Firebase, Bootstrap and Vite",
