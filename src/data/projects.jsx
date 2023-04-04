@@ -1,5 +1,7 @@
 import AcessignmentThumb from '../assets/img/thumb/acessignment-thumb.png'
 import NftAzrielThumb from '../assets/img/thumb/nft.azriel-thumb.png'
+import EmoWallThumb from '../assets/img/thumb/EmoWall-thumb.png'
+
 
 const projects = [
   {
@@ -22,9 +24,9 @@ const projects = [
     languages: "Mongo, Express, React, Node, Firebase, Bootstrap and Vite",
     title: "EmoWall",
     desc: "Private place where people can share their deepest feelings and thoughts anonymously.",
-    live: "#",
+    live: "https://emo-wall.vercel.app/",
     repo: "https://github.com/lugh-tuatha/EmoWall",
-    cover: ""
+    cover: EmoWallThumb,
   },
 ]
 
