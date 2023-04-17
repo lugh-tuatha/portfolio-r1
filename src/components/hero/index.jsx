@@ -1,6 +1,6 @@
 import React from 'react'
 
-import HeroImg from '../../assets/svg/hero.svg'
+import HeroImg from '../../assets/img/avatar.gif'
 
 import Button from '../button'
 import Quote from '../quote'

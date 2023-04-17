@@ -2,7 +2,6 @@ import AcessignmentThumb from '../assets/img/thumb/acessignment-thumb.png'
 import NftAzrielThumb from '../assets/img/thumb/Nft.azriel-thumb.png'
 import EmoWallThumb from '../assets/img/thumb/EmoWall-thumb.png'
 
-
 const projects = [
   {
     languages: "HTML, CSS, JavaScript and Bootstrap",
