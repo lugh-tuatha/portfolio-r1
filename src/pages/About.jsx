@@ -20,6 +20,12 @@ const funFacts = [
   {
     facts: "Cats are my favorite animal",
   },
+  {
+    facts: "I enjoy teaching",
+  },
+  {
+    facts: "My english is horrible",
+  },
 ]
 
 function About() {

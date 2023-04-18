@@ -43,7 +43,7 @@ function Skills() {
 
           <div className='border-1  border-primary sm:w-52 h-auto sm:h-28'>
             <h1 className='border-b-1 border-primary p-2 font-bold text-white'>Tools</h1>
-            <p className='p-2 font-thin text-gray'>VSCode, Git, Postman, Xamp</p>
+            <p className='p-2 font-thin text-gray'>VSCode, Git, Postman, Xampp</p>
           </div>
         </div>
       </div>

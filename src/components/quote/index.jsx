@@ -8,12 +8,12 @@ function Quote() {
 
       <img src={quote} className='relative w-8 left-2 top-4'/>
       <div className='px-6 py-6 border-2 border-gray'>
-        <p>With great power comes great electricity bill</p>
+        <p>Fear has killed more dreams than failure ever has</p>
       </div>
       <div className="flex justify-end">
         <img src={quote} className='w-8 relative -top-6 right-4'/>
         <div className='px-3 py-3 border-r-2 border-l-2 border-b-2 border-gray text-end'>
-          - Dr. Who
+          - Suzy Kassem
         </div>
       </div>
     </div>

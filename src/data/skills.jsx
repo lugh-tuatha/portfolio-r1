@@ -1,7 +1,7 @@
 const skills = [
   {
     category: "Languages",
-    list: "Javascript, Java",
+    list: "Javascript, Java, PHP",
   },
   {
     category: "Database",
@@ -9,7 +9,7 @@ const skills = [
   },  
   {
     category: "Other",
-    list: "HTML, CSS, SCSS",
+    list: "HTML, CSS, SCSS, EJS",
   },
   {
     category: "Frameworks",
@@ -21,7 +21,7 @@ const skills = [
   },
   {
     category: "Tools",
-    list: "VSCode, Git",
+    list: "VSCode, Git, React Postman Xampp",
   },
 ]
 
