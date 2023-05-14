@@ -13,7 +13,7 @@ const skills = [
   },
   {
     category: "Frameworks",
-    list: "React, Tailwind, Bootstrap, Vite",
+    list: "React, Tailwind, Bootstrap, Vite, UnoCSS",
   },
   {
     category: "Server side",

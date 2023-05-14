@@ -20,11 +20,11 @@ const projects = [
     cover: NftAzrielThumb,
   },
   {
-    languages: "Mongo, Express, React, Node, Firebase, Bootstrap and Vite",
-    title: "EmoWall",
+    languages: "Mongo, Express, React, Node, Tailwind and Vite",
+    title: "Masked Emotion",
     desc: "Private place where people can share their deepest feelings and thoughts anonymously.",
-    live: "https://emo-wall.vercel.app/",
-    repo: "https://github.com/lugh-tuatha/EmoWall",
+    live: "https://masked-emotion.vercel.app/",
+    repo: "https://github.com/lugh-tuatha/MaskedEmotion",
     cover: EmoWallThumb,
   },
 ]
