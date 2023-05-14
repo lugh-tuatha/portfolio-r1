@@ -28,7 +28,7 @@ function Skills() {
 
           <div className='border-1 border-primary sm:w-52 h-auto sm:h-28 sm:row-span-2'>
             <h1 className='border-b-1 border-primary p-2 font-bold text-white'>Other</h1>
-            <p className='p-2 font-thin text-gray'>HTML, CSS, SCSS, EJS, Vite</p>
+            <p className='p-2 font-thin text-gray'>HTML, CSS, SCSS, EJS, Vite, UnoCSS</p>
           </div>
 
           <div className='border-1 border-primary sm:w-52 h-auto sm:h-28'>

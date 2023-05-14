@@ -9,11 +9,11 @@ const skills = [
   },  
   {
     category: "Other",
-    list: "HTML, CSS, SCSS, EJS",
+    list: "HTML, CSS, SCSS, EJS, Vite, UnoCSS",
   },
   {
     category: "Frameworks",
-    list: "React, Tailwind, Bootstrap, Vite, UnoCSS",
+    list: "React, Tailwind, Bootstrap, Laravel",
   },
   {
     category: "Server side",
