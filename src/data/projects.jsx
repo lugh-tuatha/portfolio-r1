@@ -1,6 +1,6 @@
 import AcessignmentThumb from '../assets/img/thumb/acessignment-thumb.png'
 import NftAzrielThumb from '../assets/img/thumb/Nft.azriel-thumb.png'
-import EmoWallThumb from '../assets/img/thumb/EmoWall-thumb.png'
+import MaskedEmotion from '../assets/img/thumb/masked-emotion-banner.png'
 
 const projects = [
   {
@@ -25,7 +25,7 @@ const projects = [
     desc: "Private place where people can share their deepest feelings and thoughts anonymously.",
     live: "https://masked-emotion.vercel.app/",
     repo: "https://github.com/lugh-tuatha/MaskedEmotion",
-    cover: EmoWallThumb,
+    cover: MaskedEmotion,
   },
 ]
 
