@@ -9,7 +9,7 @@ import certificate from '../../data/certificate'
 
 function Certification() {
   return (
-    <div className='mt-20 w-11/12 xl:w-9/12 mx-auto'>
+    <div className='content-width'>
       <div className='flex items-center justify-between'>
         <SectionHeader>certification</ SectionHeader>
 

@@ -10,7 +10,7 @@ import project from '../../data/projects';
 
 function Projects() {
   return (
-    <div className='mt-20 w-11/12 xl:w-9/12 mx-auto' id='works'>
+    <div className='content-width' id='works'>
       <div className='flex items-center justify-between'>
         <SectionHeader>projects</ SectionHeader>
 

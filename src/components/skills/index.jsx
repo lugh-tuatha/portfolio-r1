@@ -7,7 +7,7 @@ import skillHero from '../../assets/svg/skills-hero.svg'
 
 function Skills() {
   return (
-    <div className='mt-20 w-11/12 xl:w-9/12 mx-auto'>
+    <div className='content-width'>
       <SectionHeader>skills</ SectionHeader>
       
       <div className='md:flex mt-12 justify-between'>

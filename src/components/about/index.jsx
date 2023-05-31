@@ -11,7 +11,7 @@ import * as Bs from "react-icons/bs";
 
 function About() {
   return (
-    <div className='mt-20 w-11/12 xl:w-9/12 mx-auto' id='about'>
+    <div className='content-width' id='about'>
       <SectionHeader>about-me</SectionHeader>
 
       <div className='lg:flex lg:justify-between '>
@@ -22,7 +22,7 @@ function About() {
           <Link to="/about"><Button>Readmore <Bs.BsArrowRight size={22} className="inline"/></Button></Link>
         </div>
 
-        <img src={AboutHero} className=' w-11/12 lg:w-1/4 mx-auto mt-4 lg:mt-0 lg:mx-0 rounded-xl'/>
+        <img src={AboutHero} className='w-11/12 lg:w-1/4 mx-auto mt-4 lg:mt-0 lg:mx-0 rounded-xl'/>
       </div>
     </div>
   )

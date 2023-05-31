@@ -14,11 +14,11 @@ function Education() {
 
         <div className='sm:w-1/2'> 
           <div className='border-1 border-gray p-4 '>
-            <p className='text-end text-primary text-sm font-thin opacity-70'>March 2023 - Present</p>
-            <h1>Blockchain Developer Program</h1>
+            <p className='text-end text-primary text-sm font-thin opacity-70'>May 2023 - Present</p>
+            <h1>KadaKareer Apprenticeship</h1>
             <div className='w-20 bg-primary h-0.2 mt-1'></div>
-            <p className='mt-4 text-gray'>Web3 developer bootcamp</p>
-            <p className='mt-3 text-justify font-thin'>I am currently undertaking a Blockchain Development Bootcamp by Nas Daily to enhance my skills and knowledge in the field.</p>
+            <p className='mt-4 text-gray'>UX/UI Design</p>
+            <p className='mt-3 text-justify font-thin'>I am currently taking an apprenticeship in UX/UI design at Kadakareer to gain professional experience and learn.</p>
           </div>
 
           <div className='border-1 border-gray p-4 mt-4'>

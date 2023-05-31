@@ -1,0 +1,6 @@
+/*---------------- 
+tailwind apply 
+----------------*/
+.content-width {
+  @apply mt-20 w-11/12 xl:w-9/12 mx-auto;
+}
