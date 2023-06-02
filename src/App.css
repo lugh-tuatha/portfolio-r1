@@ -2,5 +2,21 @@
 tailwind apply 
 ----------------*/
 .content-width {
-  @apply mt-20 w-11/12 xl:w-9/12 mx-auto;
+  @apply mt-8 w-11/12 xl:w-9/12 mx-auto;
+}
+
+/*---------------- 
+Scrollbar styles
+----------------*/
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ABB2BF;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+  /* Set the color of the track */
 }

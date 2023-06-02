@@ -4,7 +4,7 @@ import * as Ai from "react-icons/ai";
 
 function ProjectComponents({languages, title, desc, live, repo, cover}) {
   return (
-    <div className='border-1 border-gray mt-12'>
+    <div className='border-1 border-gray mt-4'>
       <img src={cover} className='w-full h-64 border-b-1 border-gray'/>
 
       <div className='border-b-1 border-gray p-2 font-thin h-16'>

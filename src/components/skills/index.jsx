@@ -10,7 +10,7 @@ function Skills() {
     <div className='content-width'>
       <SectionHeader>skills</ SectionHeader>
       
-      <div className='md:flex mt-12 justify-between'>
+      <div className='md:flex mt-4 justify-between'>
         <div className="w-full mb-4 md:mb-0 md:w-1/3">
           <img src={skillHero} className="w-full"/>
         </div>

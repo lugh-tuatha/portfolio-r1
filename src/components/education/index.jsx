@@ -9,7 +9,7 @@ function Education() {
     <div className='mt-10 w-11/12 xl:w-9/12 mx-auto'>
       <SectionHeader>bootcamp experience</SectionHeader>
 
-      <div className='mt-12 sm:flex justify-between'>
+      <div className='mt-4 sm:flex justify-between'>
         <img src={EducationContainer} className='mb-8 sm:mb-0 lg:w-1/3 h-full' />
 
         <div className='sm:w-1/2'> 

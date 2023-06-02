@@ -10,7 +10,7 @@ function Contacts() {
     <div className='mt-10 w-11/12 xl:w-9/12 mx-auto' id='contacts'>
       <SectionHeader>contacts</SectionHeader>
 
-      <div className='mt-12 md:flex justify-between'>
+      <div className='mt-4 md:flex justify-between'>
         <p className='w-full mb-8 md:mb-0 md:w-1/2 text-gray'>I'm interested in freelance opportunities. However, if you have other request or question, don't hesitate to contact me</p>
 
         <div className='border-1 border-gray w-72 p-6 h-32'>

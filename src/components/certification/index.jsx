@@ -17,7 +17,7 @@ function Certification() {
       </div>
 
       
-      <div className='grid mt-12 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-3 gap-4'>
+      <div className='grid mt-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-3 gap-4'>
         {certificate.slice(0, 3).map(certificates => (
           <CertificationContainer title={certificates.title} issueDate={certificates.issueDate} credentialLink={certificates.credentialLink} certImg={certificates.certImg}/>
         ))}
