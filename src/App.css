@@ -5,6 +5,10 @@ tailwind apply
   @apply mt-8 w-11/12 xl:w-9/12 mx-auto;
 }
 
+.flex-center {
+  @apply flex justify-center items-center;
+}
+
 /*---------------- 
 Scrollbar styles
 ----------------*/

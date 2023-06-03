@@ -4,12 +4,12 @@ import MaskedEmotion from '../assets/img/thumb/masked-emotion-banner.png'
 
 const projects = [
   {
-    languages: "HTML, CSS, JavaScript and Bootstrap",
-    title: "Acessignment",
-    desc: "Webpage full or resources for programers.",
-    live: "https://acessignment.vercel.app/",
-    repo: "https://github.com/lugh-tuatha/acessignment",
-    cover: AcessignmentThumb,
+    languages: "Mongo, Express, React, Node, Tailwind and Vite",
+    title: "Masked Emotion",
+    desc: "Private place where people can share their deepest feelings and thoughts anonymously.",
+    live: "https://masked-emotion.vercel.app/",
+    repo: "https://github.com/lugh-tuatha/MaskedEmotion",
+    cover: MaskedEmotion,
   },
   {
     languages: "React, CSS, Bootstrap and Vite",
@@ -20,12 +20,12 @@ const projects = [
     cover: NftAzrielThumb,
   },
   {
-    languages: "Mongo, Express, React, Node, Tailwind and Vite",
-    title: "Masked Emotion",
-    desc: "Private place where people can share their deepest feelings and thoughts anonymously.",
-    live: "https://masked-emotion.vercel.app/",
-    repo: "https://github.com/lugh-tuatha/MaskedEmotion",
-    cover: MaskedEmotion,
+    languages: "HTML, CSS, JavaScript and Bootstrap",
+    title: "Acessignment",
+    desc: "Webpage full or resources for programers.",
+    live: "https://acessignment.vercel.app/",
+    repo: "https://github.com/lugh-tuatha/acessignment",
+    cover: AcessignmentThumb,
   },
 ]
 
