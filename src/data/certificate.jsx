@@ -1,3 +1,4 @@
+import KodegoCert from '../assets/cert/kodego.png'
 import introToFrontEndCert from '../assets/cert/intro-frontend.jpeg'
 import uxDesignCert from '../assets/cert/ux-cert.jpeg'
 import sololearnCssCert from '../assets/cert/theoretical-css.jpg'
@@ -5,6 +6,12 @@ import udemyCssCert from '../assets/cert/css-udemy.jpg'
 import htmlCert from '../assets/cert/html-cert.jpg'
 
 const certificate = [
+  {
+    title: "Kodego | Full stack web developer",
+    issueDate: "Issued March 2023",
+    credentialLink: "https://www.coursera.org/account/accomplishments/verify/R6KZYFYNMBSX",
+    certImg: KodegoCert,
+  },
   {
     title: "Introduction to Front-End Development",
     issueDate: "Issued Jan 2023",
@@ -18,7 +25,7 @@ const certificate = [
     certImg: uxDesignCert,
   },
   {
-    title: "Theoretical understanding of CSS ㅤㅤ",
+    title: "Theoretical understanding of CSS",
     issueDate: "Issued Dec 2022",
     credentialLink: "https://www.sololearn.com/certificates/CT-TXH3A6WK",
     certImg: sololearnCssCert,
