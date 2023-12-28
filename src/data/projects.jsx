@@ -4,6 +4,7 @@ import MaskedEmotion from '../assets/img/thumb/masked-emotion-banner.png'
 
 const projects = [
   {
+    id: 1,
     languages: "Mongo, Express, React, Node, Tailwind and Vite",
     title: "Masked Emotion",
     desc: "Private place where people can share their deepest feelings and thoughts anonymously.",
@@ -12,6 +13,7 @@ const projects = [
     cover: MaskedEmotion,
   },
   {
+    id: 2,
     languages: "React, CSS, Bootstrap and Vite",
     title: "Nft.azriel",
     desc: "A virtual NFT marketplace",
@@ -20,6 +22,7 @@ const projects = [
     cover: NftAzrielThumb,
   },
   {
+    id: 3,
     languages: "HTML, CSS, JavaScript and Bootstrap",
     title: "Acessignment",
     desc: "Webpage full or resources for programers.",

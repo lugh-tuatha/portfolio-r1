@@ -3,9 +3,9 @@ import React from 'react'
 
 import * as Ai from "react-icons/ai";
 
-function CertificationContainer({title, issueDate, credentialLink, certImg}) {
+function CertificationContainer({id, title, issueDate, credentialLink, certImg}) {
   return (
-    <div className='border-1 cert'>
+    <div className='border-1 cert' key={id}>
       <img src={certImg} alt="intro to front-end cert" className='border-b-1'/>
 
       <div className='p-3 flex flex-col h-36'>

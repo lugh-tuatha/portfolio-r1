@@ -16,7 +16,7 @@ function Navbar() {
 
   return (
     <div className=' w-full fixed top-0 bg-background border-b border-red-gray pb-8 z-10'>
-      <div className="container mx-auto">
+      <div className="content-width mx-auto">
         <nav className='justify-between mt-6 hidden sm:flex'>
           <Link to="/">
             <div className='flex gap-2'>
@@ -57,7 +57,6 @@ function Navbar() {
 
         </nav>
       </div>
-
     </div>
   )
 }

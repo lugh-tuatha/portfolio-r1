@@ -12,6 +12,9 @@ import skill from '../data/skills'
 
 const funFacts = [
   {
+    facts: "INTP-T",
+  },
+  {
     facts: "I like winter more than summer",
   },
   {
@@ -35,7 +38,7 @@ function About() {
     <Socials />
     <div className='mt-10 w-11/12 xl:w-9/12 mx-auto'>
       <h1 className='text-3xl mb-3'><span className='text-primary'>/</span>about-me</h1>
-      <p>Who am i?</p>
+      <p className='mt-6'>Who am i?</p>
 
       <div className='lg:flex lg:justify-between mb-8'>
         <div className='lg:w-1/2 text-lg text-gray mt-12 text-justify'>

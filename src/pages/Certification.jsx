@@ -14,7 +14,7 @@ function Certification() {
       <div className='mt-10 w-11/12 xl:w-9/12 mx-auto'>
 
         <h1 className='text-3xl mb-3'><span className='text-primary'>/</span>certification</h1>
-        <p>List of my certificate</p>
+        <p className='mt-6'>List of my certificate</p>
 
         <h1 className="text-3xl mt-16 "><span className='text-primary'>#</span>completed course</h1>
 

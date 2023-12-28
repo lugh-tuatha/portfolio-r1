@@ -2,9 +2,9 @@ import React from 'react'
 
 import * as Ai from "react-icons/ai";
 
-function ProjectComponents({languages, title, desc, live, repo, cover}) {
+function ProjectComponents({languages, title, desc, live, repo, cover, id}) {
   return (
-    <div className='border-1 border-gray mt-4'>
+    <div className='border-1 border-gray mt-4' key={id}>
       <img src={cover} className='w-full h-64 border-b-1 border-gray'/>
 
       <div className='border-b-1 border-gray p-2 font-thin h-16'>
